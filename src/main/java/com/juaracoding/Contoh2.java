@@ -10,4 +10,8 @@ Created on Mon 19:25
 Version 1.0
 */
 public class Contoh2 {
+
+    public static void main(String[] args) {
+        System.out.println("Buat Push !!");
+    }
 }
