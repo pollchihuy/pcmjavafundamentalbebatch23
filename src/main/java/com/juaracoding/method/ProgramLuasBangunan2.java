@@ -12,7 +12,7 @@ public class ProgramLuasBangunan2 {
         switch (pilih) {
             case 1:luasBangunan.hitungLuasPersegi(sc);break;
             case 2:luasBangunan.hitungLuasPersegiPanjang(sc);break;
-            case 3:luasBangunan.hitungLuasPersegi(sc);break;
+            case 3:luasBangunan.hitungLuasSegitiga(sc);break;
             default:System.out.println("Pilihan tidak ditemukan !!");
         }
     }

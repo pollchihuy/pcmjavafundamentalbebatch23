@@ -2,7 +2,11 @@ package com.juaracoding.method;
 
 import java.util.Scanner;
 
+
 public class LuasBangunan {
+
+//    fungsi untuk menghitung luas segitiga
+    private String strNama;
 
     public void pilihan(){
         System.out.print("Pilih  Program Yang Diinginkan :\n");
@@ -11,13 +15,17 @@ public class LuasBangunan {
         System.out.print("3. Hitung Segitiga\n");
     }
 
-    public void hitungLuasSegitiga(Scanner sc){
+    /** fungsi untuk menghitung luas segitiga */
+    /*  fungsi untuk menghitung luas segitiga  */
+    //  fungsi untuk menghitung luas segitiga 
+    public double hitungLuasSegitiga(Scanner sc) {
         System.out.print("Masukkan Nilai Alas : ");
         double alas = sc.nextDouble();
         System.out.print("Masukkan Nilai Tinggi : ");
         double tinggi = sc.nextDouble();
         double luas = (alas*tinggi)/2;
         System.out.println("Luas Segitiga "+luas);
+        return luas;
     }
 
     public void hitungLuasPersegi(Scanner sc){
