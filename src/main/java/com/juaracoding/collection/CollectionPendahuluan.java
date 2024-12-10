@@ -27,8 +27,8 @@ public class CollectionPendahuluan {
             System.out.println(classPassingArr[i].getH());
         }
 
-        ModelData modelDataArr [] = new ModelData[2];
-        ModelData modelData = new ModelData();
+        User modelDataArr [] = new User[2];
+        User modelData = new User();
         modelData.setAlamat("Bogor");
         modelData.setNama("Paul");
         modelData.setEmail("Paul@gmail.com");
